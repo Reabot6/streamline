@@ -1,0 +1,83 @@
+﻿/*
+ * Built by Reabot6 from SFG (seofg.xyz)
+ * Open-source — github.com/reabot6/streamline
+ */
+.item-board {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  color: #333;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.item-board__input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item-board__input-row input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #667eea;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.item-board__input-row input:focus {
+  border-color: #5568d3;
+}
+
+.item-board__input-row button {
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.item-board__input-row button:hover {
+  background: #5568d3;
+}
+
+.item-board__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-board__entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.item-board__entry button {
+  padding: 8px 16px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.item-board__entry button:hover {
+  background: #cc0000;
+}
+
+.item-board__empty {
+  text-align: center;
+  color: #999;
+  padding: 40px;
+  font-style: italic;
+}
